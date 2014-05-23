@@ -11,3 +11,5 @@ Akai MPC30
 Trigger Finger
 
 Basically has a dual movie loader -> CPU effects -> GPU/OpenGL Shader Effects -> Quad Warp method going on
+
+![Screenshot](https://raw.github.com/laserpilot/Trig_Movies_8.0/master/Sample_Shot.png)
