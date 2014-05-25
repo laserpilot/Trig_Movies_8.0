@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 565.0, 140.0, 1294.0, 517.0 ],
+		"rect" : [ 137.0, 388.0, 1294.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -371,7 +371,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.94902, 0.870588, 0.137255, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 8.0,
 					"hint" : "Mask Mix",
@@ -609,7 +609,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.87451, 0.584314, 0.345098, 1.0 ],
+					"bgcolor" : [ 0.0, 0.501961, 1.0, 1.0 ],
 					"id" : "obj-164",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1044,13 +1044,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-124",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 658.0, 109.0, 25.0 ],
-					"text" : "bgcolor 0.821809 0.259823 0.371754 1."
+					"patching_rect" : [ 628.0, 658.0, 95.0, 15.0 ],
+					"text" : "bgcolor 0.6 0.6 0.7 1."
 				}
 
 			}
@@ -1252,7 +1251,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.6, 0.6, 0.7, 1.0 ],
 					"fontname" : "Arial Black",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
@@ -1551,7 +1550,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fgcolor" : [ 0.643137, 0.337255, 0.337255, 1.0 ],
+					"fgcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
 					"id" : "obj-145",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -1915,7 +1914,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fgcolor" : [ 0.976471, 0.337255, 0.337255, 1.0 ],
+					"fgcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"id" : "obj-50",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -2140,7 +2139,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fgcolor" : [ 1.0, 0.627451, 0.254902, 1.0 ],
+					"fgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"id" : "obj-32",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -2769,7 +2768,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2834,7 +2833,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -3656,7 +3655,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.501961, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hint" : "LR-Y",
@@ -3677,7 +3676,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.501961, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hint" : "LR-X",
@@ -3796,7 +3795,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.956863, 0.956863, 0.156863, 1.0 ],
+					"bordercolor" : [ 0.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hint" : "LL-Y",
@@ -3807,6 +3806,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
+					"outputonclick" : 1,
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.0, 543.0, 41.0, 17.0 ],
 					"presentation" : 1,
@@ -3817,7 +3817,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.956863, 0.956863, 0.156863, 1.0 ],
+					"bordercolor" : [ 0.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hint" : "LL-X",
