@@ -37,7 +37,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 497.552612, 321.0, 67.0, 17.0 ],
-					"presentation_rect" : [ 258.0, 308.0, 0.0, 0.0 ],
 					"text" : "unpack 1 1"
 				}
 
@@ -93,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 12.0, 150.0, 17.0 ],
+					"patching_rect" : [ 547.552612, 504.0, 150.0, 17.0 ],
 					"text" : "RESETMIDI"
 				}
 
@@ -122,7 +121,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.799988, 76.0, 32.5, 17.0 ],
-					"presentation_rect" : [ 484.0, 116.0, 0.0, 0.0 ],
 					"text" : "pack"
 				}
 
@@ -137,7 +135,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.399994, 76.0, 32.5, 17.0 ],
-					"presentation_rect" : [ 434.0, 107.0, 0.0, 0.0 ],
 					"text" : "pack"
 				}
 
@@ -163,7 +160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 384.0, 12.0, 20.0, 20.0 ]
+					"patching_rect" : [ 601.552612, 504.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -214,7 +211,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 261.0, 330.0, 110.0, 20.0 ],
-									"presentation_rect" : [ 260.0, 333.0, 0.0, 0.0 ],
 									"text" : "ControlNum/Val"
 								}
 
@@ -229,7 +225,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 168.0, 330.0, 100.0, 20.0 ],
-									"presentation_rect" : [ 172.0, 330.0, 0.0, 0.0 ],
 									"text" : "PressNum/Val"
 								}
 
@@ -259,7 +254,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 403.0, 178.0, 76.0, 31.0 ],
-									"presentation_rect" : [ 403.0, 178.0, 0.0, 0.0 ],
 									"text" : "\"Akai MPD24\""
 								}
 
@@ -325,8 +319,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 88.0, 296.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 88.0, 317.0, 0.0, 0.0 ]
+									"patching_rect" : [ 88.0, 296.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -337,8 +330,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 139.0, 296.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 121.0, 317.0, 0.0, 0.0 ]
+									"patching_rect" : [ 139.0, 296.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -352,7 +344,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"patching_rect" : [ 88.0, 258.0, 70.0, 20.0 ],
-									"presentation_rect" : [ 37.0, 279.0, 0.0, 0.0 ],
 									"text" : "unpack 1 2"
 								}
 
@@ -364,8 +355,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 296.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 242.0, 471.0, 0.0, 0.0 ]
+									"patching_rect" : [ 180.0, 296.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -376,8 +366,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 213.0, 296.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 275.0, 471.0, 0.0, 0.0 ]
+									"patching_rect" : [ 213.0, 296.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -391,7 +380,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"patching_rect" : [ 183.0, 258.0, 70.0, 20.0 ],
-									"presentation_rect" : [ 191.0, 433.0, 0.0, 0.0 ],
 									"text" : "unpack 1 2"
 								}
 
@@ -1609,7 +1597,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 587.750061, 515.828979, 36.0, 15.0 ]
+					"patching_rect" : [ 587.750061, 519.828979, 36.0, 15.0 ]
 				}
 
 			}
@@ -2270,7 +2258,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 243.0, 62.0, 17.0 ],
+					"patching_rect" : [ 321.0, 274.0, 62.0, 17.0 ],
 					"text" : "s mpdpoly18"
 				}
 
@@ -2284,7 +2272,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 243.0, 62.0, 17.0 ],
+					"patching_rect" : [ 261.5, 274.0, 62.0, 17.0 ],
 					"text" : "s mpdpoly17"
 				}
 
@@ -6047,6 +6035,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-298", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-298", 0 ]
 				}
 
 			}
